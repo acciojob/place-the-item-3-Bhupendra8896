@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.container{
+	display:flex;
+	justify-content : space-between;
+	align-items: center;
+}
+.item{
+	flex-basis:200px;
+	height:200px;
+	background-color:#f2f2f2;
+	border:1px solid #ccc;
+}
